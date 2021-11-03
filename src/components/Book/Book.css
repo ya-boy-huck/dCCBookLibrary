@@ -14,10 +14,11 @@
     border-right: solid black;
     border-bottom: solid black;
     border-width: 1 1px;
-    height: 650px;
+    height: 400px;
     width: 100%;
     border-bottom-left-radius: 15%;
     border-top-right-radius: 5%;
+    padding-bottom: 2em;
 }
 
 .title {

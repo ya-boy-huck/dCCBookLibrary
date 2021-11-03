@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import './App.css';
 import TitleBar from './TitleBar/TitleBar';
 import BookViewer from './BookViewer/BookViewer';
+import Footer from './Footer/Footer';
+import BookCreator from './BookCreator/BookCreator';
 
 class App extends Component {
     constructor(props){
@@ -43,6 +45,8 @@ class App extends Component {
             <div className="container-fluid">
                 <TitleBar />
                 <BookViewer book={this.books[this.state.bookNumber]} nextBook={this.goToNextBook} previousBook={this.goToPreviousBook}/>
+                <BookCreator />
+                <Footer />
             </div>
         )
     }
